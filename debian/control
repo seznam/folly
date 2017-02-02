@@ -1,0 +1,45 @@
+Source: folly
+Priority: extra
+Maintainer: Patrik Modesto <patrik.modesto@firma.seznam.cz>
+Build-Depends:
+ debhelper (>= 8),
+ autoconf,
+ autoconf-archive,
+ automake,
+ dh-autoreconf,
+ libboost-all-dev,
+ libdouble-conversion-dev,
+ libdwarf-dev,
+ libelf-dev,
+ libevent-dev,
+ libgflags-dev,
+ libgoogle-glog-dev,
+ libiberty-dev,
+ libjemalloc-dev,
+ liblz4-dev,
+ liblzma-dev,
+ libsnappy-dev,
+ libssl-dev,
+ libtool,
+ libunwind8-dev,
+ pkg-config,
+ zlib1g-dev
+Standards-Version: 3.9.4
+Section: libs
+Homepage: https://github.com/facebook/folly
+Vcs-Git: http://git.github.com/facebook/folly
+
+Package: libfolly-dev
+Section: libdevel
+Architecture: any
+Depends: ${misc:Depends}, libfolly57 (= ${binary:Version}),
+ libevent-dev
+Description: Folly: Facebook Open-source LibrarY
+ Folly is an open-source C++ library developed and used at Facebook.
+
+Package: libfolly57
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Folly: Facebook Open-source LibrarY
+ Folly is an open-source C++ library developed and used at Facebook.

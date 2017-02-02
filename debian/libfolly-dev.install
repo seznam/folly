@@ -1,0 +1,6 @@
+usr/include/folly/
+usr/lib/x86_64-linux-gnu/pkgconfig/
+usr/lib/x86_64-linux-gnu/libfolly.a
+usr/lib/x86_64-linux-gnu/libfolly.so
+usr/lib/x86_64-linux-gnu/libfollybenchmark.a
+usr/lib/x86_64-linux-gnu/libfollybenchmark.so
