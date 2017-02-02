@@ -200,6 +200,8 @@ static_assert(
   fi
 fi
 
+AC_CONFIG_COMMANDS([unpack_gtest],[mkdir -p test/gtest-1.7.0; cp -r /usr/src/gtest/* test/gtest-1.7.0/])
+
 AC_CHECK_TYPES([ptrdiff_t, pthread_spinlock_t])
 
 AC_CACHE_CHECK(
