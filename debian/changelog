@@ -1,3 +1,9 @@
+folly (2016.12.19.00+deb1) unstable; urgency=medium
+
+  * Fixed runtime dependencies for the -dev package
+
+ -- Lukáš Hrázký <lukas.hrazky@firma.seznam.cz>  Wed, 19 Apr 2017 17:51:21 +0200
+
 folly (2016.12.19.00) unstable; urgency=low
 
   * Initial release

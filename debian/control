@@ -32,8 +32,14 @@ Vcs-Git: http://git.github.com/facebook/folly
 Package: libfolly-dev
 Section: libdevel
 Architecture: any
-Depends: ${misc:Depends}, libfolly57 (= ${binary:Version}),
- libevent-dev
+Depends:
+ ${misc:Depends},
+ libfolly57 (= ${binary:Version}),
+ libdouble-conversion-dev,
+ libevent-dev,
+ libgoogle-glog-dev,
+ libjemalloc-dev,
+ libssl-dev
 Description: Folly: Facebook Open-source LibrarY
  Folly is an open-source C++ library developed and used at Facebook.
 
